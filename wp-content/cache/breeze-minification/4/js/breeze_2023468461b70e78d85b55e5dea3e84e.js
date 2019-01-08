@@ -1,0 +1,1 @@
+var deft_ajax={"ajaxurl":"https:\/\/www.coderare.com\/deft\/wordpress\/resume\/wp-admin\/admin-ajax.php","is_front_page":"","is_mobile":""};

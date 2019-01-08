@@ -1,0 +1,1 @@
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga('create','UA-39740946-5','auto');ga('require','eventTracker');ga('require','outboundLinkTracker');ga('require','urlChangeTracker');ga('send','pageview');;
