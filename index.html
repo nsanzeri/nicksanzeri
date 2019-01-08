@@ -65,9 +65,16 @@ img.wp-smiley, img.emoji {
 	href='https://fonts.googleapis.com/css?family=Raleway%3A600%2C500%2C400&#038;ver=1531963191'
 	type='text/css' media='all' />
 <script type='text/javascript'
-	src='wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+	src='wp-includes/js/jquery/jquery.js'></script>
 <script type='text/javascript'
-	src='wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+	src='wp-includes/js/jquery/jquery-migrate.min.js'></script>
+<script type="text/javascript">
+jQuery(document).ready(function ($) {
+	$.getJSON("http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=", function(a) {
+	  	  $("#quoteotd:has(h2)").append(a[0].content + "<p>— " + a[0].title + "</p>");
+	  	});
+});
+</script>   	
 <link rel='https://api.w.org/' href='wp-json/' />
 <link rel="EditURI" type="application/rsd+xml" title="RSD"
 	href="xmlrpc.php?rsd" />
@@ -104,11 +111,11 @@ img.wp-smiley, img.emoji {
 }
 
 blockquote::before {
-	color: #fa356c;
+	color: #5634b7;
 }
 
 blockquote::after {
-	color: #fa356c;
+	color: #5634b7;
 }
 
 .wpcf7 input[type=submit] {
@@ -128,7 +135,7 @@ blockquote::after {
 .wpcf7 input[type=text]:focus, .wpcf7 input[type=email]:focus, .wpcf7 input[type=url]:focus,
 	.wpcf7 input[type=tel]:focus, .wpcf7 input[type=number]:focus, .wpcf7 .wpcf7-select:focus,
 	.wpcf7 textarea:focus {
-	border-bottom-color: #fa356c;
+	border-bottom-color: #5634b7;
 }
 
 .wpcf7-form .wpcf7-response-output.wpcf7-validation-errors {
@@ -144,7 +151,7 @@ div.wpcf7-mail-sent-ng {
 }
 
 body {
-	background: #fa356c;
+	background: #5634b7;
 	font-family: Raleway;
 	font-size: 1.1em;
 	line-height:;
@@ -172,7 +179,7 @@ body {
 }
 
 #leftSide.color {
-	background: #fa356c;
+	background: #5634b7;
 }
 
 .h-content {
@@ -208,7 +215,7 @@ body {
 }
 
 .sub-icon {
-	background: #fa356c;
+	background: #5634b7;
 }
 
 .time-dash {
@@ -216,7 +223,7 @@ body {
 }
 
 #timer .clock-box {
-	color: #fa356c;
+	color: #5634b7;
 }
 
 #timer .clock-box .number {
@@ -224,11 +231,11 @@ body {
 }
 
 #timer .clock-box .number.bg-color {
-	background: #fa356c;
+	background: #5634b7;
 }
 
 #timer .clock-box.tower {
-	background: #fa356c;
+	background: #5634b7;
 }
 
 #owlCarousel .owl-nav .owl-prev, #owlCarousel .owl-nav .owl-next {
@@ -240,15 +247,15 @@ body {
 }
 
 .features-left .feature .icon {
-	color: #fa356c;
+	color: #5634b7;
 }
 
 .features-center .feature .icon {
-	color: #fa356c;
+	color: #5634b7;
 }
 
 .progress_bar .progress {
-	background: #fa356c;
+	background: #5634b7;
 }
 
 .project .project-snipet h3 {
@@ -283,7 +290,7 @@ body {
 }
 
 #subscribe-form .input-email:focus {
-	border-bottom-color: #fa356c;
+	border-bottom-color: #5634b7;
 }
 
 #subscribe-form #subscribe-result.subscribing {
@@ -299,7 +306,7 @@ body {
 }
 
 #subscribe-form.compressed-form .input-email:focus {
-	border-bottom-color: #fa356c;
+	border-bottom-color: #5634b7;
 }
 
 .vertical-result #subscribe-result.subscribing {
@@ -308,11 +315,11 @@ body {
 
 #contact_form .input-name:focus, #contact_form .input-email:focus,
 	#contact_form .input-message:focus {
-	border-bottom-color: #fa356c;
+	border-bottom-color: #5634b7;
 }
 
 .custom-navigation {
-	color: #fa356c;
+	color: #5634b7;
 }
 
 .custom-navigation .flex-prev, .custom-navigation .flex-next {
@@ -331,7 +338,7 @@ footer {
 }
 
 .p-color {
-	color: #fa356c;
+	color: #5634b7;
 }
 
 .t-color {
@@ -339,7 +346,7 @@ footer {
 }
 
 .p-bg {
-	background: #fa356c;
+	background: #5634b7;
 }
 
 .t-bg {
@@ -347,7 +354,7 @@ footer {
 }
 
 .icon_in {
-	color: #fa356c;
+	color: #5634b7;
 }
 
 .btn-play {
@@ -390,7 +397,7 @@ footer {
 }
 
 .filled {
-	color: #fa356c;
+	color: #5634b7;
 }
 
 .overlay::before {
@@ -402,7 +409,7 @@ footer {
 }
 
 p a {
-	color: #fa356c;
+	color: #5634b7;
 }
 
 p a:hover {
@@ -410,7 +417,7 @@ p a:hover {
 }
 
 ::-moz-selection {
-	background: #fa356c;
+	background: #5634b7;
 }
 
 ::selection {
@@ -418,7 +425,7 @@ p a:hover {
 }
 
 .accent {
-	background-color: #fa356c;
+	background-color: #5634b7;
 }
 
 /*Cube Aniumations*/
@@ -435,7 +442,7 @@ p a:hover {
 }
 
 #parallax {
-	background: radial-gradient(ellipse at center, #fa356c, #fa356c);
+	background: radial-gradient(ellipse at center, #5634b7, #5634b7);
 }
 
 .scene {
@@ -443,7 +450,7 @@ p a:hover {
 }
 
 .wing-left {
-	border-right: 38px solid #fa356c;
+	border-right: 38px solid #5634b7;
 }
 
 .wing-left:after {
@@ -451,7 +458,7 @@ p a:hover {
 }
 
 .wing-right {
-	border-right: 40px solid #fa356c;
+	border-right: 40px solid #5634b7;
 }
 
 .wing-right:after {
@@ -459,7 +466,7 @@ p a:hover {
 }
 
 .exhaust {
-	border-top: 23px solid #fa356c;
+	border-top: 23px solid #5634b7;
 }
 
 .capsule {
@@ -471,16 +478,16 @@ p a:hover {
 }
 
 .window-big {
-	background: #fa356c;
+	background: #5634b7;
 }
 
 /* Angular Animation */
 .angle-pattern {
-	background: #fa356c;
+	background: #5634b7;
 }
 
 .angle-pattern canvas {
-	background: #fa356c;
+	background: #5634b7;
 }
 
 /* photoSwipe */
@@ -631,7 +638,7 @@ p a:hover {
 }
 
 .content a {
-	color: #fa356c;
+	color: #5634b7;
 }
 
 .content a:hover {
@@ -691,6 +698,7 @@ footer .text {
 			<div id="home"
 				class="  col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2 ">
 				<div class="h-content">
+				<iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:6xRrH2IVMxSkMihQUXcYdJ&size=detail&theme=dark" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
 					<div id="quoteotd">
 					<h2 class="animated fadeInUp mid mb20">Thanks for stopping by</h2>
 					</div>
@@ -716,7 +724,7 @@ footer .text {
 						</div>
 					</div>
 				</div>
-				<div class="leftPanel-footer social_tab fadeInUp mid">
+				<!--  -->div class="leftPanel-footer social_tab fadeInUp mid">
 					<p>Stay in touch.</p>
 					<ul class="social_icons">
 						<li class="spotify"><a
@@ -732,7 +740,7 @@ footer .text {
 							href="https://soundcloud.com/user-388786670/albums"
 							target="_blank"><i class="fa fa-soundcloud"></i></a></li>
 					</ul>
-				</div>
+				</div-->
 			</div>
 		</div>
 		<div id="rightSide" class="visible ">
@@ -773,7 +781,7 @@ footer .text {
 								target="_blank"><i class="fa fa-soundcloud"></i></a></li>
 						</ul>
 					</div>
-					<h5 class="follow  mr15 fw600">Follow me</h5>
+					<h5 class="follow  mr15 fw600"><iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:6xRrH2IVMxSkMihQUXcYdJ&size=detail&theme=dark" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe></h5>
 				</div>
 				<div class="content-container">
 					<div class="content">
@@ -969,12 +977,7 @@ var deft_ajax = {"ajaxurl":"https:\/\/www.coderare.com\/deft\/wordpress\/resume\
         );
 
         </script>
-<script type="text/javascript">
-jquery(document).ready(function () {
-	jquery.getJSON("http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=", function(a) {
-  	  jquery("body").append(a[0].content + "<p>— " + a[0].title + "</p>");
-  	});
-});       
-</script>           
+        <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us2.list-manage.com","uuid":"758e0b12aa6b2c9e1c489b5f1","lid":"fa36f06ccb","uniqueMethods":true}) })</script>
+        
 </body>
 </html>
