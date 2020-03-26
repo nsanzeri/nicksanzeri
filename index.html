@@ -70,10 +70,31 @@ img.wp-smiley, img.emoji {
 	src='wp-includes/js/jquery/jquery-migrate.min.js'></script>
 <script type="text/javascript">
 jQuery(document).ready(function ($) {
-	$.getJSON("http://quotesondesign.com/wp-json/posts?filter[orderby]=rand&filter[posts_per_page]=1&callback=", function(a) {
-	  	  $("#quoteotd:has(h2)").append(a[0].content + "<p>— " + a[0].title + "</p>");
-	  	});
+	$('#quoteotd').html('<H2>');
+	$('#quoteotd').html('').append(getQuote( $ ));
+	//$('#quoteotd').html('Hello World');
 });
+
+function getQuote( $ ) {
+	var quotes = [["Imitation is suicide.", "-Ralph Waldo Emerson"], 
+		["The object of art is not to reproduce reality, but to create a reality of the same intensity.", "-Alberto Giacometti" ], 
+		["Don’t look for society to give you permission to be yourself.", "-Steve Maraboli"], 
+		["If things go wrong, don’t go with them.", "-Roger Babson"], 
+		["Wanting to be someone else is a waste of who you are.", "-Kurt Cobain"], 
+		["If I had my life to live over again, I would have made a rule to read some poetry and listen to some music at least once every week.", "-Charles Darwin"],
+		["Nothing that you have not given away will ever be really yours.", "-C. S. Lewisv"],
+		["Educating the mind without educating the heart is no education at all.", "-Aristotle"],
+		["Do what you can, with what you have, where you are.", "-Theodore Roosevelt"] ,
+		["If you cannot be a poet, be the poem.", "-David Carradine"],
+		["You can never plan the future by the past.", " -Edmund Burke"],
+		["Be there for others, but never leave yourself behind.", "-Dodinsky"]];
+	var randomNumber = Math.floor(Math.random() * (quotes.length));
+	return quotes[randomNumber];
+
+	//return "Hello there";
+	  //var randomNumber = Math.floor(Math.random() * (quotes.length));
+	  //document.getElementById('quoteDisplay').innerHTML = quotes[randomNumber].join("<br>");
+}
 </script>   	
 <link rel='https://api.w.org/' href='wp-json/' />
 <link rel="EditURI" type="application/rsd+xml" title="RSD"
@@ -179,7 +200,7 @@ body {
 }
 
 #leftSide.color {
-	background: #010e45;
+	background: #030409;
 }
 
 .h-content {
@@ -698,12 +719,19 @@ footer .text {
 			<div id="home"
 				class="  col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2 ">
 				<div class="h-content">
-				<iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:6xRrH2IVMxSkMihQUXcYdJ&size=detail&theme=dark" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
-					<div id="quoteotd">
-					<h2 class="animated fadeInUp mid mb20">Thanks for stopping by</h2>
+					<div id="quoteotd" class="animated fadeInUp mid">
 					</div>
+					<br><br><br>
+					<iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:6xRrH2IVMxSkMihQUXcYdJ&size=detail&theme=dark&show-count=0" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
 					<h1 class="animated fadeInUp mid">
+					<iframe src="https://open.spotify.com/embed/artist/6xRrH2IVMxSkMihQUXcYdJ" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 					</h1>
+					<div class="col-sm-3 mb30 col-xs-3 app-icon">
+						<img src="wp-content/img/tihaff.png" alt="">
+					</div>
+					<h3 class="animated fadeInUp mid">
+					"This Is How A Feeling Fades" - Available Jan 24th at wherever you get your music from!
+					</h3>
 					<div class="mt40 animated fadeInUp mid">
 						<a id="info" href="#info" class="round btn-solid">INFO</a>
 						<div class="social_tab inline">
@@ -745,7 +773,7 @@ footer .text {
 		</div>
 		<div id="rightSide" class="visible ">
 			<div class="background-img-holder percent84">
-				<img src="wp-content/img/pexels-photo-175701.jpeg">
+				<img src="wp-content/img/InsideOut.png">
 			</div>
 			<div id="rightContent">
 				<div class="close-bar">
@@ -781,7 +809,7 @@ footer .text {
 								target="_blank"><i class="fa fa-soundcloud"></i></a></li>
 						</ul>
 					</div>
-					<h5 class="follow  mr15 fw600"><iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:6xRrH2IVMxSkMihQUXcYdJ&size=detail&theme=dark" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe></h5>
+					<h5 class="follow  mr15 fw600"><iframe src="https://open.spotify.com/follow/1/?uri=spotify:artist:6xRrH2IVMxSkMihQUXcYdJ&size=detail&theme=light&show-count=0" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe></h5>
 				</div>
 				<div class="content-container">
 					<div class="content">
@@ -790,21 +818,13 @@ footer .text {
 							<div class="row">
 								<div class="mini-holder col-sm-12">
 									<div class="col-sm-3 mb30 col-xs-3 app-icon">
-										<img src="wp-content/img/FollowTheFeeling.PNG" alt="">
+										<img src="wp-content/img/InsideOut.png" alt="">
 									</div>
 									<div class="col-sm-8 col-sm-offset-1 col-xs-12">
 										<h2 class="mb10">Thanks for stopping by</h2>
-										<h4 class="mb10">Nick Sanzeri is a multi-instrumentalist
-											with a flair for writing, arranging and producing. His
-											earliest years were spent writing and singing and playing
-											bass with various line-ups. He went on to study music
-											composition at Columbia College Chicago, and continues to
-											play on countless studio sessions for various artists and
-											other commercial work, as well as being a permanent staple of
-											the exciting live scene of Chicago and the surrounding areas.
-											Follow the Feeling filters his love of all things poppy,
-											funky and quirky through the lens of humor which have become
-											his trademarks.</h4>
+										<h4 class="mb10"><p>"This Is How a Feeling Fades" is coming Jan 24th.  Six pumping songs about loss and estrangement, deep personal introspection and 800 numbers.  It's a late night ride through some of the stranger avenues of my mind and one that may very well relate to.</p> 
+
+<p>This feels like the third piece to a puzzle which started with "Follow the Feeling" and "Red Flags".   The songs: Hey You (I'm Talking to Me), Back in Business, This Is How a Feeling Fades, Get Hott, Walk Away from You and Keep It Real. The songs came together as a group after having some listening parties with friends and talking about the common thread of high energy and fun that these songs had for us and hopefully wil have for you.</p> </h4>
 										<div class="social_tab">
 											<ul
 												class="social_icons text-dark in-info large icon-container">
