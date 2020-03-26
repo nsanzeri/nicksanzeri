@@ -142,7 +142,7 @@ blockquote {
     left: 13px;
     z-index: 0;
     opacity: 0.2;
-    color: #fd7958; }
+    color: #2747D8; }
 
 #leftSide {
   background: rgba(255, 255, 255, 0.8);
@@ -196,7 +196,7 @@ blockquote {
   #leftSide.width-35 {
     width: 35%; }
   #leftSide.color {
-    background: #fd7958; }
+    background: #2747D8; }
   #leftSide.transparent {
     background: transparent; }
   #leftSide p a {
@@ -442,7 +442,7 @@ blockquote {
   #home .h-content {
     position: relative;
     z-index: 0;
-    color: #ffbd59; }
+    color: #fff; }
     #home .h-content .ion-heart {
       color: crimson; }
   #home.center {
@@ -546,7 +546,7 @@ blockquote {
   display: inline-block; }
 
 .sub-icon {
-  background: #fd7958;
+  background: #2747D8;
   color: #fff; }
 
 .instagram {
@@ -738,7 +738,7 @@ blockquote {
     position: relative;
     float: left;
     border-radius: 5px;
-    color: #fd7958;
+    color: #2747D8;
     padding: 0 5px;
     margin: 0 8px; }
     #timer .clock-box .number {
@@ -752,7 +752,7 @@ blockquote {
       color: #20222B; }
       #timer .clock-box .number.bg-color {
         color: #fff;
-        background: #fd7958; }
+        background: #2747D8; }
     #timer .clock-box .text {
       text-transform: uppercase;
       width: 65px;
@@ -776,7 +776,7 @@ blockquote {
       top: -15px; }
     #timer .clock-box.tower {
       color: #fff;
-      background: #fd7958;
+      background: #2747D8;
       margin: 0 10px;
       margin-bottom: 0 !important; }
       #timer .clock-box.tower .text {
@@ -1055,7 +1055,7 @@ blockquote {
       margin-left: 10px;
       font-size: 5em;
       opacity: .9;
-      color: #fd7958;
+      color: #2747D8;
       -webkit-transition: 0.3s;
       -ms-transition: 0.3s;
       -moz-transition: 0.3s;
@@ -1126,7 +1126,7 @@ blockquote {
   border-radius: 5px; }
   .progress_bar .progress {
     border-radius: 5px;
-    background: #fd7958;
+    background: #2747D8;
     padding: 2.5px 20px; }
 
 /* ------------------------------------- */
@@ -1158,7 +1158,7 @@ blockquote {
     .deft-pagination .page-numbers i {
       color: rgba(0, 0, 0, 0.6); }
     .deft-pagination .page-numbers.current {
-      background: #fd7958;
+      background: #2747D8;
       color: white; }
   .deft-pagination .next, .deft-pagination .prev {
     border: none;
@@ -1631,7 +1631,7 @@ blockquote {
     -moz-transition: 0.2s;
     -o-transition: 0.2s;
     transition: 0.2s;
-    border-bottom-color: #fd7958; }
+    border-bottom-color: #2747D8; }
 #subscribe-form .input-submit {
   width: 100%;
   display: inline-block;
@@ -1762,7 +1762,7 @@ blockquote {
     -moz-transition: 0.2s;
     -o-transition: 0.2s;
     transition: 0.2s;
-    border-bottom-color: #fd7958; }
+    border-bottom-color: #2747D8; }
 #subscribe-form.compressed-form .input-submit {
   display: inline-block;
   width: auto;
@@ -1948,7 +1948,7 @@ blockquote {
       -moz-transition: 0.2s;
       -o-transition: 0.2s;
       transition: 0.2s;
-      border-bottom-color: #fd7958; }
+      border-bottom-color: #2747D8; }
   #commentform .input-message, #commentform textarea {
     height: 120px;
     padding: 20px 25px; }
@@ -2119,7 +2119,7 @@ input[type=submit] {
     -moz-transition: 0.2s;
     -o-transition: 0.2s;
     transition: 0.2s;
-    border-bottom-color: #fd7958; }
+    border-bottom-color: #2747D8; }
 
 .wpcf7 textarea {
   height: 120px;
@@ -2174,7 +2174,7 @@ div.wpcf7-mail-sent-ok:before, div.wpcf7-validation-errors:before {
     transform: translateX(0); }
 
 .custom-navigation {
-  color: #fd7958; }
+  color: #2747D8; }
   .custom-navigation .flex-prev, .custom-navigation .flex-next {
     color: #fff;
     display: inline-block;
@@ -2449,7 +2449,7 @@ footer {
   color: #b3b3b3; }
 
 .p-color {
-  color: #fd7958; }
+  color: #2747D8; }
 
 .t-color {
   color: #F45B69; }
@@ -2549,7 +2549,7 @@ footer {
   font-size: 1em; }
 
 .p-bg {
-  background: #fd7958;
+  background: #2747D8;
   color: #fff; }
 
 .t-bg {
@@ -2560,7 +2560,7 @@ footer {
   font-style: italic; }
 
 .icon_in {
-  color: #fd7958;
+  color: #2747D8;
   font-size: 1.5em; }
 
 * {
@@ -2952,7 +2952,7 @@ button:focus {
 
 .filled {
   background: #fff;
-  color: #fd7958;
+  color: #2747D8;
   font-weight: 700;
   display: inline-block;
   padding: 5px 10px; }
@@ -3267,7 +3267,7 @@ p {
   font-weight: 500;
   margin-bottom: 20px; }
   p a {
-    color: #fd7958;
+    color: #2747D8;
     text-decoration: none; }
     p a:hover {
       color: #172b82; }
@@ -3292,7 +3292,7 @@ a {
 
 ::-moz-selection {
   color: #fff;
-  background: #fd7958; }
+  background: #2747D8; }
 
 ::selection {
   color: #fff;
@@ -3315,7 +3315,7 @@ img {
 
 /*Cube Aniumations*/
 .hero {
-  background-color: #fd7958;
+  background-color: #2747D8;
   position: absolute;
   left: 0;
   right: 0;
@@ -3767,7 +3767,7 @@ img {
     transform: translate(0, -500px) scale(0.5); } }
 /* 3D particles animations */
 #parallax {
-  background: radial-gradient(ellipse at center, #fd7958, #fd7958); }
+  background: radial-gradient(ellipse at center, #2747D8, #2747D8); }
 
 #particles-js, #parallax, .layer, .some-space {
   height: 100%;
@@ -3838,7 +3838,7 @@ img {
   left: 16px;
   transform: rotate(10deg) skew(5deg);
   border-top: 21px solid transparent;
-  border-right: 38px solid #fd7958;
+  border-right: 38px solid #2747D8;
   border-bottom: 19px solid transparent; }
   .wing-left:after {
     content: "";
@@ -3861,7 +3861,7 @@ img {
   right: 17px;
   transform: rotate(-10deg) skew(-5deg);
   border-top: 0 solid transparent;
-  border-right: 40px solid #fd7958;
+  border-right: 40px solid #2747D8;
   border-bottom: 15px solid transparent; }
   .wing-right:after {
     content: "";
@@ -3882,7 +3882,7 @@ img {
   left: 51px;
   height: 0px;
   width: 101px;
-  border-top: 23px solid #fd7958;
+  border-top: 23px solid #2747D8;
   border-left: 9px solid transparent;
   border-right: 8px solid transparent; }
 
@@ -3940,7 +3940,7 @@ img {
 .window-big {
   width: 70px;
   height: 70px;
-  background: #ffbd59;
+  background: #2747D8;
   border-radius: 8em;
   position: absolute;
   z-index: 40;
@@ -4232,9 +4232,9 @@ svg {
   width: 100%;
   height: 100%;
   position: absolute;
-  background: #fd7958; }
+  background: #2747D8; }
   .angle-pattern canvas {
-    background: #fd7958; }
+    background: #2747D8; }
   .angle-pattern #home {
     position: absolute;
     height: 100%;
@@ -4307,7 +4307,7 @@ svg {
   left: 0; }
 
 .accent {
-  background-color: #fd7958;
+  background-color: #2747D8;
   z-index: 100;
   position: relative;
   opacity: 0.9; }
